@@ -26,7 +26,7 @@ db_name = odoo_v1
 # Database filtering (False = show all databases)
 # Set to a regex pattern to filter database names shown in the database selector
 # Example: db_filter = ^%d$ (only show database matching the subdomain)
-dbfilter = ^odoo_v1$
+dbfilter = 
 
 # List databases on the login screen (True/False)
 list_db = True
