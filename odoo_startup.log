@@ -1,0 +1,602 @@
+2025-11-19 11:57:13,893 55025 INFO ? odoo: Odoo version 19.0 
+2025-11-19 11:57:13,893 55025 INFO ? odoo: Using configuration file at /Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo.conf 
+2025-11-19 11:57:13,893 55025 INFO ? odoo: addons paths: _NamespacePath(['/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons', '/Users/luminous_imteaj/Library/Application Support/Odoo/addons/19.0/addons/19.0', '/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons', '/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/custom_addons']) 
+2025-11-19 11:57:13,893 55025 INFO ? odoo: database: luminous_imteaj@localhost:5432 
+2025-11-19 11:57:14,064 55025 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2025-11-19 11:57:19,068 55025 INFO ? odoo.service.server: HTTP service (werkzeug) running on luminous-imteajs-MacBook-Air.local:8069 
+2025-11-19 11:57:19,095 55025 INFO odoo_v1 odoo.modules.loading: loading 1 modules... 
+2025-11-19 11:57:19,100 55025 INFO odoo_v1 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-11-19 11:57:19,123 55025 INFO odoo_v1 odoo.modules.loading: loading 47 modules... 
+2025-11-19 11:57:19,322 55025 INFO odoo_v1 odoo.modules.loading: 47 modules loaded in 0.20s, 0 queries (+0 extra) 
+2025-11-19 11:57:19,357 55025 INFO odoo_v1 odoo.modules.loading: Modules loaded. 
+2025-11-19 11:57:19,373 55025 INFO odoo_v1 odoo.registry: Registry loaded in 0.292s 
+2025-11-19 11:57:19,430 55025 INFO odoo_v1 odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-11-19 11:57:19,490 55025 INFO odoo_v1 odoo.addons.base.models.res_device: User 2 inserts device log (kMPys0rGmxfsblJYKeNJ7eVhIN77l3PtmK9TDTT-MH) 
+2025-11-19 11:57:19,798 55025 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-11-19 11:58:19,392 55025 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-11-19 11:58:19,512 55025 INFO odoo_v1 odoo.addons.base.models.res_users: GC'd 6 user log entries 
+2025-11-19 11:58:19,534 55025 INFO odoo_v1 odoo.addons.base.models.ir_attachment: filestore gc 28 checked, 5 removed 
+2025-11-19 11:58:19,540 55025 INFO odoo_v1 odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2025-11-19 11:58:19,586 55025 INFO odoo_v1 odoo.addons.base.models.res_device: GC device logs delete 1 entries 
+2025-11-19 11:58:19,587 55025 INFO odoo_v1 odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-11-19 11:58:19,591 55025 INFO odoo_v1 odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-11-19 11:58:19,605 55025 INFO odoo_v1 odoo.models.unlink: User #1 deleted base.module.uninstall records with IDs: [1] 
+2025-11-19 11:58:19,625 55025 INFO odoo_v1 odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-11-19 11:58:19,637 55025 INFO odoo_v1 odoo.models.unlink: User #1 deleted mail.compose.message records with IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26] 
+2025-11-19 11:58:19,645 55025 INFO odoo_v1 odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-11-19 11:58:19,663 55025 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 78; remaining 0; duration 0.27s) 
+2025-11-19 11:59:03,741 55025 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 184. Replace by @t-out 
+2025-11-19 11:59:03,742 55025 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 184. Replace by @t-out 
+2025-11-19 11:59:03,742 55025 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 184. Replace by @t-out 
+2025-11-19 11:59:04,449 55025 INFO odoo_v1 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/fc3f5c9/web.assets_web.min.css (id:484) 
+2025-11-19 11:59:04,449 55025 INFO odoo_v1 odoo.addons.base.models.assetsbundle: Deleting attachments [455] (matching /web/assets/_______/web.assets_web.min.css) because it was replaced with /web/assets/fc3f5c9/web.assets_web.min.css 
+2025-11-19 11:59:06,278 55025 INFO odoo_v1 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/e53d240/web.assets_web_print.min.css (id:485) 
+2025-11-19 11:59:06,278 55025 INFO odoo_v1 odoo.addons.base.models.assetsbundle: Deleting attachments [456] (matching /web/assets/_______/web.assets_web_print.min.css) because it was replaced with /web/assets/e53d240/web.assets_web_print.min.css 
+2025-11-19 11:59:06,281 55025 INFO odoo_v1 odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/686e776/web.assets_web.min.js (id:486) 
+2025-11-19 11:59:06,281 55025 INFO odoo_v1 odoo.addons.base.models.assetsbundle: Deleting attachments [454] (matching /web/assets/_______/web.assets_web.min.js) because it was replaced with /web/assets/686e776/web.assets_web.min.js 
+2025-11-19 11:59:42,036 55025 WARNING odoo_v1 odoo.http: The following tickets cannot be deleted while they have one or more registrations linked to them:
+- Standard
+- VIP 
+2025-11-19 11:59:47,002 55025 WARNING odoo_v1 odoo.http: The following tickets cannot be deleted while they have one or more registrations linked to them:
+- Standard
+- VIP 
+2025-11-19 11:59:52,021 55025 WARNING odoo_v1 odoo.http: The following tickets cannot be deleted while they have one or more registrations linked to them:
+- Standard
+- VIP 
+2025-11-19 11:59:52,339 55025 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 184. Replace by @t-out 
+2025-11-19 11:59:52,339 55025 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 184. Replace by @t-out 
+2025-11-19 11:59:52,339 55025 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 184. Replace by @t-out 
+2025-11-19 11:59:57,622 55025 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (15) starting 
+2025-11-19 11:59:57,754 55025 INFO odoo_v1 odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-11-19 11:59:57,754 55025 INFO odoo_v1 odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-11-19 11:59:57,754 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 11:59:57,918 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 11:59:58,059 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 11:59:58,171 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 11:59:58,212 55025 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (15) fully done (#loop 1; done 0; remaining 0; duration 0.59s) 
+2025-11-19 12:00:19,174 55025 INFO odoo_v1 odoo.models.unlink: User #2 deleted mail.message records with IDs: [174, 168, 163, 150, 144, 79] 
+2025-11-19 12:00:19,189 55025 ERROR odoo_v1 odoo.sql_db: bad query: b'DELETE FROM "event_event" WHERE id IN (8)'
+ERROR: update or delete on table "event_event" violates foreign key constraint "event_registration_event_id_fkey" on table "event_registration"
+DETAIL:  Key (id)=(8) is still referenced from table "event_registration".
+ 
+2025-11-19 12:00:19,202 55025 WARNING odoo_v1 odoo.http: The operation cannot be completed: Another model is using the record you are trying to delete.
+
+The troublemaker is: 'Event Registration' (event.registration)
+Thanks to the following constraint: 'Event' (event_id)
+How about archiving the record instead? 
+2025-11-19 12:00:56,516 55025 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (15) starting 
+2025-11-19 12:00:56,631 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 12:00:56,745 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 12:00:56,858 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 12:00:56,942 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 12:00:56,947 55025 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (15) fully done (#loop 1; done 0; remaining 0; duration 0.43s) 
+2025-11-19 12:03:26,232 55025 INFO odoo_v1 odoo.addons.mail.models.mail_push_device: WebPush: missing public key, new VAPID keys generated 
+2025-11-19 12:03:26,235 55025 INFO odoo_v1 odoo.registry: Caches invalidated, signaling through the database: ['stable'] 
+2025-11-19 12:03:26,243 55025 ERROR odoo_v1 odoo.sql_db: bad query: b'INSERT INTO "ir_config_parameter" ("create_date", "create_uid", "key", "value", "write_date", "write_uid") VALUES (\'2025-11-19T12:03:26.228695\'::timestamp, 2, \'mail.web_push_vapid_private_key\', \'NQ6glRElGb22vFy1l04U147BsigcSTaiOa5P_IeqIOo\', \'2025-11-19T12:03:26.228695\'::timestamp, 2) RETURNING "id"'
+ERROR: duplicate key value violates unique constraint "ir_config_parameter_key_uniq"
+DETAIL:  Key (key)=(mail.web_push_vapid_private_key) already exists.
+ 
+2025-11-19 12:03:26,252 55025 WARNING odoo_v1 odoo.http: The operation cannot be completed: Key must be unique. 
+2025-11-19 12:03:29,739 55025 INFO odoo_v1 odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module. 
+2025-11-19 12:03:58,644 55025 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (15) starting 
+2025-11-19 12:03:58,798 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 12:03:58,912 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 12:03:59,023 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 12:03:59,106 55025 ERROR odoo_v1 odoo.addons.event.models.event_mail: Unable to find Wkhtmltopdf on this system. The PDF can not be created. 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 486, in schedule_communications
+    self.browse(scheduler.id).execute()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 114, in execute
+    scheduler._execute_attendee_based()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 281, in _execute_attendee_based
+    valid_chunk._execute_on_registrations()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event_sms/models/event_mail_registration.py", line 15, in _execute_on_registrations
+    return super(EventMailRegistration, self - todo)._execute_on_registrations()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail_registration.py", line 43, in _execute_on_registrations
+    scheduler._send_mail(reg_mails.registration_id)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/event/models/event_mail.py", line 387, in _send_mail
+    composer.with_context(mail_composer_force_partners=False)._action_send_mail()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 780, in _action_send_mail
+    result_mails_su += wizard._action_send_mail_mass_mail(res_ids, auto_commit=auto_commit)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 827, in _action_send_mail_mass_mail
+    prepared_mail_values_filtered = self._manage_mail_values(self._prepare_mail_values(res_ids_iter))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 992, in _prepare_mail_values
+    additional_values_all = self._prepare_mail_values_dynamic(res_ids)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1151, in _prepare_mail_values_dynamic
+    template_values = self._generate_template_for_composer(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/wizard/mail_compose_message.py", line 1427, in _generate_template_for_composer
+    template_values = self.template_id._generate_template(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 643, in _generate_template
+    template._generate_template_attachments(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/mail/models/mail_template.py", line 366, in _generate_template_attachments
+    report_content, report_format = self.env['ir.actions.report']._render_qweb_pdf(report, [res_id])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1030, in _render_qweb_pdf
+    collected_streams, report_type = self._pre_render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 1021, in _pre_render_qweb_pdf
+    return self._render_qweb_pdf_prepare_streams(report_ref, data, res_ids=res_ids), 'pdf'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/addons/base/models/ir_actions_report.py", line 858, in _render_qweb_pdf_prepare_streams
+    raise UserError(_("Unable to find Wkhtmltopdf on this system. The PDF can not be created."))
+odoo.exceptions.UserError: Unable to find Wkhtmltopdf on this system. The PDF can not be created.
+2025-11-19 12:03:59,113 55025 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (15) fully done (#loop 1; done 0; remaining 0; duration 0.47s) 
