@@ -18,6 +18,12 @@
                                     icon="fa-users">
                                 <field name="registration_count" widget="statinfo" string="Registrations"/>
                             </button>
+                            <button name="action_send_email"
+                                    type="object"
+                                    class="oe_stat_button"
+                                    icon="fa-envelope"
+                                    string="Send Email"
+                                    help="Send email to contacts based on selected tags"/>
                         </div>
                         <field name="active" invisible="1"/>
                         <widget name="web_ribbon" text="Archived" bg_color="text-bg-danger" invisible="active"/>
@@ -60,6 +66,26 @@
                                         <field name="end_sale_datetime"/>
                                     </list>
                                 </field>
+                            </page>
+                            <page string="Email Communication" name="email_communication">
+                                <group>
+                                    <group string="Contact Selection">
+                                        <field name="contact_tag_ids" widget="many2many_tags"
+                                               placeholder="Select contact tags for email recipients..."
+                                               options="{'color_field': 'color', 'no_create': True}"
+                                               help="Select contact tags to filter recipients for email communication. Only active contacts with these tags will receive emails."/>
+                                    </group>
+                                </group>
+                                <div class="alert alert-info mt-3" role="alert">
+                                    <p><strong>How to send emails:</strong></p>
+                                    <ol>
+                                        <li>Select one or more contact tags above</li>
+                                        <li>Click the "Send Email" button in the top right</li>
+                                        <li>Compose your email message</li>
+                                        <li>Review the recipient list (only active contacts with email addresses)</li>
+                                        <li>Click "Send Email" to send</li>
+                                    </ol>
+                                </div>
                             </page>
                             <page string="Description" name="description">
                                 <field name="description" widget="html"/>

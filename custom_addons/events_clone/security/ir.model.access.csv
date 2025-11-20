@@ -14,4 +14,6 @@ access_events_clone_tag_user,events.clone.tag.user,model_events_clone_tag,group_
 access_events_clone_tag_manager,events.clone.tag.manager,model_events_clone_tag,group_events_clone_manager,1,1,1,1
 access_events_clone_tag_category_user,events.clone.tag.category.user,model_events_clone_tag_category,group_events_clone_user,1,1,1,0
 access_events_clone_tag_category_manager,events.clone.tag.category.manager,model_events_clone_tag_category,group_events_clone_manager,1,1,1,1
+access_events_clone_email_wizard_user,events.clone.email.wizard.user,model_events_clone_email_wizard,group_events_clone_user,1,1,1,1
+access_events_clone_email_wizard_manager,events.clone.email.wizard.manager,model_events_clone_email_wizard,group_events_clone_manager,1,1,1,1
 

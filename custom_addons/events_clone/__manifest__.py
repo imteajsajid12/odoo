@@ -25,6 +25,7 @@ Key Features
     'data': [
         'security/events_clone_security.xml',
         'security/ir.model.access.csv',
+        'wizard/events_clone_email_wizard_views.xml',
         'views/events_clone_menu_views.xml',
         'views/events_clone_ticket_views.xml',
         'views/events_clone_registration_views.xml',

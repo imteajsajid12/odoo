@@ -54,6 +54,16 @@ class EventsCloneEvent(models.Model):
         ('done', 'Ready for Next Stage'),
         ('blocked', 'Blocked'),
     ], default='normal', copy=False, tracking=True)
+
+    # Contact Tags for Email Functionality
+    contact_tag_ids = fields.Many2many(
+        'res.partner.category',
+        'events_clone_event_partner_category_rel',
+        'event_id',
+        'category_id',
+        string='Contact Tags',
+        help='Select contact tags to filter recipients for email communication'
+    )
     
     # Date and Time
     date_begin = fields.Datetime(string='Start Date', required=True, tracking=True)
@@ -120,6 +130,21 @@ class EventsCloneEvent(models.Model):
         action['domain'] = [('event_id', '=', self.id)]
         action['context'] = {'default_event_id': self.id}
         return action
+
+    def action_send_email(self):
+        """Open email wizard to send emails to contacts based on selected tags"""
+        self.ensure_one()
+        return {
+            'name': _('Send Email'),
+            'type': 'ir.actions.act_window',
+            'res_model': 'events.clone.email.wizard',
+            'view_mode': 'form',
+            'target': 'new',
+            'context': {
+                'default_event_id': self.id,
+                'default_contact_tag_ids': self.contact_tag_ids.ids,
+            },
+        }
 
 
 import pytz
