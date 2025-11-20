@@ -745,3 +745,80 @@ psycopg2.errors.SerializationFailure: could not serialize access due to concurre
 2025-11-20 03:39:04,374 63378 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
 2025-11-20 03:39:04,383 63378 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
 2025-11-20 03:39:04,394 63378 INFO odoo_v1 odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2025-11-20 03:48:32,900 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 189. Replace by @t-out 
+2025-11-20 03:48:32,901 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 189. Replace by @t-out 
+2025-11-20 03:48:32,909 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 624. Replace by @t-out 
+2025-11-20 03:48:32,910 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 624. Replace by @t-out 
+2025-11-20 03:48:32,910 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 624. Replace by @t-out 
+2025-11-20 03:48:33,019 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 624. Replace by @t-out 
+2025-11-20 03:48:33,020 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 624. Replace by @t-out 
+2025-11-20 03:48:33,020 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 624. Replace by @t-out 
+2025-11-20 03:48:33,041 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 624. Replace by @t-out 
+2025-11-20 03:48:33,042 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 624. Replace by @t-out 
+2025-11-20 03:48:33,042 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 624. Replace by @t-out 
+2025-11-20 03:48:33,064 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 624. Replace by @t-out 
+2025-11-20 03:48:33,065 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 624. Replace by @t-out 
+2025-11-20 03:48:33,065 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 624. Replace by @t-out 
+2025-11-20 03:48:33,109 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) > 25 else user_id.name" in template 486. Replace by @t-out 
+2025-11-20 03:48:33,139 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) > 25 else user_id.name" in template 486. Replace by @t-out 
+2025-11-20 03:48:33,143 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 189. Replace by @t-out 
+2025-11-20 03:48:33,143 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 189. Replace by @t-out 
+2025-11-20 03:48:33,148 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="lg.name.split('/').pop()" in template 710. Replace by @t-out 
+2025-11-20 03:48:33,148 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="lg.url_code.split('_').pop(0).upper()" in template 710. Replace by @t-out 
+2025-11-20 03:48:35,508 63378 INFO odoo_v1 odoo.addons.base.models.res_users: Login successful for login:admin from 127.0.0.1 
+2025-11-20 03:48:35,525 63378 INFO odoo_v1 odoo.addons.base.models.res_device: User 2 inserts device log (BomNCekeLfIPtjL1VUMfnf5fM-HsjPvDAMCKr0ZaoJ) 
+2025-11-20 03:48:35,784 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 184. Replace by @t-out 
+2025-11-20 03:48:35,785 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 184. Replace by @t-out 
+2025-11-20 03:48:35,785 63378 WARNING odoo_v1 odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 184. Replace by @t-out 
+2025-11-20 03:49:16,732 63378 INFO odoo_v1 odoo.service.server: Initiating server reload 
+2025-11-20 03:49:17,103 63378 ERROR odoo_v1 odoo.sql_db: bad query: b' UPDATE "mail_presence"\n                    SET "status" = "__tmp"."status"::VARCHAR\n                    FROM (VALUES (1, \'offline\')) AS "__tmp"("id", "status")\n                    WHERE "mail_presence"."id" = "__tmp"."id"\n                '
+ERROR: could not serialize access due to concurrent update
+ 
+2025-11-20 03:49:17,111 63378 ERROR odoo_v1 odoo.addons.bus.websocket: could not serialize access due to concurrent update
+ 
+Traceback (most recent call last):
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/bus/websocket.py", line 356, in get_messages
+    message = self._process_next_message()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/bus/websocket.py", line 489, in _process_next_message
+    self._handle_control_frame(frame)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/bus/websocket.py", line 641, in _handle_control_frame
+    self._terminate()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/addons/bus/websocket.py", line 622, in _terminate
+    with acquire_cursor(self._db) as cr:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/sql_db.py", line 236, in __exit__
+    self.commit()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/sql_db.py", line 549, in commit
+    self.flush()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/sql_db.py", line 179, in flush
+    self.transaction.flush()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/orm/environments.py", line 592, in flush
+    self.default_env.flush_all()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/orm/environments.py", line 388, in flush_all
+    self[model_name].flush_model()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/orm/models.py", line 6356, in flush_model
+    self._flush()
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/orm/models.py", line 6424, in _flush
+    model.browse(some_ids)._write_multi(vals_list)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/orm/models.py", line 4591, in _write_multi
+    self.env.execute_query(SQL(
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/orm/environments.py", line 534, in execute_query
+    self.cr.execute(query)
+  File "/Users/luminous_imteaj/Documents/officeWork/Odoo/odoo/odoo/sql_db.py", line 426, in execute
+    self._obj.execute(query, params)
+psycopg2.errors.SerializationFailure: could not serialize access due to concurrent update
+
+Exception in thread odoo.service.cron.cron1:
+Exception in thread odoo.service.cron.cron0:
+Traceback (most recent call last):
+2025-11-20 03:49:17,161 63378 INFO odoo_v1 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.12/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+  File "/opt/homebrew/Cellar/python@3.12/3.12.12/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001f66a2080 (most recent call first):
+  <no Python frame>
